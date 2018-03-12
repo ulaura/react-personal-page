@@ -6,6 +6,6 @@ const Home = () => {
       This is the home page wow so shiny. 
     </div>
   );
-}
+};
 
 export default Home;

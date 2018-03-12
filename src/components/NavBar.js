@@ -3,11 +3,11 @@ import React from 'react';
 const NavBar = () => {
   return (
     <div>
-      <a href="#">Home</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
+      <a href="/">Home</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/contact">Contact</a>
     </div>
   );
-}
+};
 
 export default NavBar;
