@@ -12,11 +12,18 @@ const App = () => {
     <Router>
       <div>
         <NavBar />
+        <h1>Laura Unaeze</h1>
+        <h2>Software Developer</h2>
+        
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+
+        <div className="footer">
+          <p>&#169; Copyright 2018 Laura Unaeze</p>
+        </div>
       </div>
     </Router>
   );
