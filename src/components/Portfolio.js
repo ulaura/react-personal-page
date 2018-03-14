@@ -5,7 +5,6 @@ const Portfolio = () => {
     <div>
       <div className="">
         <h3 className="">Portfolio</h3>
-        <br />
         <h4>Zen Den</h4>
         <h5>December 2017 - January 2018</h5>
         <p>
@@ -21,15 +20,15 @@ const Portfolio = () => {
         </p>
           <br />
         <p>
-          Try It: <a href="https://zenden.herokuapp.com/dashboard" target="_blank">https://zenden.herokuapp.com/dashboard</a>
+          Try It: <a href="https://zenden.herokuapp.com/dashboard" target="_blank" rel="noopener noreferrer">https://zenden.herokuapp.com/dashboard</a>
           <br />
-          GitHub Repo: <a href="https://github.com/ulaura/Zen-Den" target="_blank">https://github.com/ulaura/Zen-Den</a>
+          GitHub Repo: <a href="https://github.com/ulaura/Zen-Den" target="_blank" rel="noopener noreferrer">https://github.com/ulaura/Zen-Den</a>
         </p>
         
         <hr />
 
         <h4>Eat Da Burger</h4>
-        <h5>October 2017 - Updated December 2017</h5>
+        <h5>October 2017. Updated December 2017</h5>
         <p>
           An app that allows users to input burger names and "devour" each burger by clicking a button. 
           Users are able to see newly created burgers appear in a list on one side of the page and devoured 
@@ -37,9 +36,9 @@ const Portfolio = () => {
         </p>
           <br />
         <p>
-          Try It: <a href="http://ulaura-eat-da-burger.herokuapp.com/" target="_blank">http://ulaura-eat-da-burger.herokuapp.com/</a>
+          Try It: <a href="http://ulaura-eat-da-burger.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://ulaura-eat-da-burger.herokuapp.com/</a>
           <br />
-          GitHub Repo: <a href="https://github.com/ulaura/burger" target="_blank">https://github.com/ulaura/burger</a>
+          GitHub Repo: <a href="https://github.com/ulaura/burger" target="_blank" rel="noopener noreferrer">https://github.com/ulaura/burger</a>
         </p>
         
         <hr />
@@ -53,9 +52,9 @@ const Portfolio = () => {
         </p>
           <br />
         <p>
-          Try It: <a href="https://feedyofacephp.herokuapp.com/app.html#!" target="_blank">https://feedyofacephp.herokuapp.com/app.html#!</a>
+          Try It: <a href="https://feedyofacephp.herokuapp.com/app.html#!" target="_blank" rel="noopener noreferrer">https://feedyofacephp.herokuapp.com/app.html#!</a>
           <br />
-          GitHub Repo: <a href="https://github.com/ulaura/Feed-Yo-Face-Final" target="_blank">https://github.com/ulaura/Feed-Yo-Face-Final</a>
+          GitHub Repo: <a href="https://github.com/ulaura/Feed-Yo-Face-Final" target="_blank" rel="noopener noreferrer">https://github.com/ulaura/Feed-Yo-Face-Final</a>
         </p>
 
         <hr />
@@ -68,11 +67,11 @@ const Portfolio = () => {
         </p>
           <br />
         <p>
-          Try It: <a href="https://ulaura.github.io/Psychic-Game/" target="_blank">https://ulaura.github.io/Psychic-Game/</a> 
+          Try It: <a href="https://ulaura.github.io/Psychic-Game/" target="_blank" rel="noopener noreferrer">https://ulaura.github.io/Psychic-Game/</a> 
           <br />
           (Note: Currently playable on desktop only)
           <br />
-          GitHub Repo: <a href="https://github.com/ulaura/Psychic-Game" target="_blank">https://github.com/ulaura/Psychic-Game</a>
+          GitHub Repo: <a href="https://github.com/ulaura/Psychic-Game" target="_blank" rel="noopener noreferrer">https://github.com/ulaura/Psychic-Game</a>
         </p>
       </div>
     </div>
