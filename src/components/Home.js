@@ -26,11 +26,15 @@ const Home = () => {
       <Col lg={5} mdOffset={1} lgOffset={1}>
         <h3>Skills</h3>
           <h4>Proficient</h4>
-            <p>React, JavaScript, Node, HTML, CSS, Bootstrap</p>
+            <p>React, JavaScript, Node, Express, JSON, AJAX, APIs</p>
+            <p>HTML, CSS, jQuery, Bootstrap</p>
           <h4>Knowledgeable</h4>
-            <p>Blah blah blah</p>
+            <p>Firebase, MongoDB, MySQL, Sequelize, Mongoose, Handlebars</p>
+            <p>MVC Framework, ORM Framework, Mobile Responsiveness</p>
           <h4>Learning</h4>
-            <p>Yadda yadda</p>
+            <p>Python</p>
+          <h4>Miscellaneous</h4>
+            <p>Git, GitHub, Command Line</p>
       </Col>
     </div>
   );
