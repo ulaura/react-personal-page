@@ -13,20 +13,24 @@ const App = () => {
     <Router>
       <div>
         <Grid>
-          <h1 className="text-center">Laura Unaeze</h1>
-          <h2 className="text-center">Software Developer</h2>
-          <Navigation />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact" component={Contact} />
-            {/* Added a catch-all path to redirect Home */}
-            <Route exact path="*" component={Home} />
-          </Switch>
+          <Row>
+            <h1 className="text-center">Laura Unaeze</h1>
+            <h2 className="text-center">Software Developer</h2>
+            <Navigation />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/contact" component={Contact} />
+              {/* Added a catch-all path to redirect Home */}
+              <Route exact path="*" component={Home} />
+            </Switch>
+          </Row>
 
-          <div className="footer">
-            <p>&#169; Copyright 2018 Laura Unaeze</p>
-          </div>
+          <Row>
+            <Col lg={12} className="footer">
+              <p>&#169; Copyright 2018 Laura Unaeze</p>
+            </Col>
+          </Row>
         </Grid>
       </div>
     </Router>
