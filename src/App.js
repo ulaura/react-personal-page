@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './components/NavBar';
+import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact';
@@ -12,11 +12,10 @@ const App = () => {
   return (
     <Router>
       <div>
-        <NavBar />
         <Grid>
           <h1 className="text-center">Laura Unaeze</h1>
           <h2 className="text-center">Software Developer</h2>
-
+          <Navigation />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/portfolio" component={Portfolio} />

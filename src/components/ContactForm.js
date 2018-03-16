@@ -1,6 +1,6 @@
 // This will be rendered in Contact.js
 import React, { Component } from 'react';
-import { FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
+import { FormGroup, FormControl, ControlLabel, Button } from 'react-bootstrap';
 class ContactForm extends Component {
   constructor(props, context) {
     super(props, context);
@@ -19,8 +19,9 @@ class ContactForm extends Component {
         </FormGroup>
         <FormGroup controlId="formControlsTextarea">
           <ControlLabel>Message</ControlLabel>
-          <FormControl componentClass="textarea" placeholder="Type your message here" />
+          <FormControl componentClass="textarea" rows={5} placeholder="Type your message here" />
         </FormGroup>
+        <Button type="submit">Send Message</Button>
       </form>
     );
   };
