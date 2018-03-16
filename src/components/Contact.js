@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <Col>
+    <Col lg={12}>
       <h3>Contact Information</h3>
 
       <h4>LinkedIn:</h4>
