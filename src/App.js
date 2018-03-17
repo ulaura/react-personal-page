@@ -13,7 +13,7 @@ const App = () => {
     <Router>
       <div>
         <Grid>
-          <Row>
+          <div>
             <h1 className="text-center">Laura Unaeze</h1>
             <h2 className="text-center">Software Developer</h2>
             <Navigation />
@@ -23,8 +23,10 @@ const App = () => {
               <Route exact path="/contact" component={Contact} />
               {/* Added a catch-all path to redirect Home */}
               <Route exact path="*" component={Home} />
+              {/* Dummy link. It will eventually lead to a page with extra projects */}
+              <Route exact path="#" component={Portfolio} />
             </Switch>
-          </Row>
+          </div>
 
           <Row>
             <Col lg={12} className="footer">
