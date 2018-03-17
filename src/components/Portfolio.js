@@ -1,6 +1,12 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+// importing images to use below with the help of Webpack
+// (which comes with using Create React App)
+import ZenDenImage from '../images/zenden-front-page.png'; 
+import EatDaBurgerImage from '../images/eat-da-burger-front-page.png';
+import FeedYoFaceImage from '../images/feed-yo-face-front-page.png';
+import LightBulbImage from '../images/light-bulb-front-page.png';
 
 const Portfolio = () => {
   return (
@@ -20,6 +26,7 @@ const Portfolio = () => {
         <Col lg={5} md={5}>
           <h4>Zen Den</h4>
           <h5>December 2017 - January 2018</h5>
+          <Image src={ZenDenImage} alt="Front page of ZenDen" responsive={true} />
           <p>
             An app that combines multiple tools and resources for effective anxiety management.
             Users are able to select one of three tools &#8212; Breathe, Mood Tracker, and Blog &#8212; to help
@@ -42,6 +49,7 @@ const Portfolio = () => {
         <Col lg={5} lgOffset={1} md={5} mdOffset={1}>
           <h4>Eat Da Burger</h4>
           <h5>October 2017. Updated December 2017</h5>
+          <Image src={EatDaBurgerImage} alt="Front page of Eat Da Burger!!" responsive={true} />
           <p>
             An app that allows users to input burger names and "devour" each burger by clicking a button. 
             Users are able to see newly created burgers appear in a list on one side of the page and devoured 
@@ -60,6 +68,7 @@ const Portfolio = () => {
         <Col lg={5} md={5}>
           <h4>Feed-Yo-Face</h4>
           <h5>August - September 2017</h5>
+          <Image src={FeedYoFaceImage} alt="Front page of Feed-Yo-Face" responsive={true} />
           <p>
             An app that helps users discover recipes they can make with the ingredients in their pantry. 
             Users are able to make a profile, add ingredients to their pantry, search for recipes based on those ingredients, 
@@ -76,6 +85,7 @@ const Portfolio = () => {
         <Col lg={5} lgOffset={1} md={5} mdOffset={1}>
           <h4>Light Bulb Psychic Game</h4>
           <h5>August 2017</h5>
+          <Image src={LightBulbImage} alt="Front page of Light Bulb Psychic Game" responsive={true} />
           <p>
             A browser based JavaScript game which prompts users to guess the randomly generated letter. 
             Users have nine tries to guess correctly, and if they do, they are rewarded with a fun surprise.
