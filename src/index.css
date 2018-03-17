@@ -4,6 +4,16 @@ body {
   font-family: sans-serif;
 }
 
+.myFace {
+  width: 30%; 
+  margin-top: 2%; 
+  float: left;
+}
+
+.myName {
+  font-size: 600%;
+}
+
 ul {
   text-align: center;
   padding-left: 0; /* Cancels out padding inserted from somewhere */

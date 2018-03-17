@@ -30,7 +30,7 @@ const Home = () => {
             <p>HTML, CSS, jQuery, Bootstrap</p>
           <h4>Knowledgeable</h4>
             <p>Firebase, MongoDB, MySQL, Sequelize, Mongoose, Handlebars</p>
-            <p>MVC Framework, ORM Framework, Mobile Responsiveness</p>
+            <p>Materialize, MVC Framework, ORM Framework, Mobile Responsiveness</p>
           <h4>Learning</h4>
             <p>Python</p>
           <h4>Miscellaneous</h4>
