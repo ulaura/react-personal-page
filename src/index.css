@@ -3,6 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
   background: url("images/forest-herbs-blue-background.svg");
+  /* Thrown in to stop a scrollbar from offsetting content */
+  width: calc(100vw - 34px); 
 }
 
 .myFace {
