@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
 
 const Home = () => {
   return (
-    <Row>
+    <Row className="content">
       <Col lg={5}>
         <h3>About Me</h3>
         <p>
@@ -23,7 +23,7 @@ const Home = () => {
         </p>
       </Col>
 
-      <Col lg={5} lgOffset={1}>
+      <Col lg={5} lgOffset={2}>
         <h3>Skills</h3>
           <h4>Proficient</h4>
             <p>React, JavaScript, Node, Express, JSON, AJAX, APIs</p>

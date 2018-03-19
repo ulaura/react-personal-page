@@ -13,7 +13,7 @@ const Portfolio = () => {
     <div>
       {/* The page title is given its own row here so it's not included
           in the alignment for each project row */}
-      <Row>
+      <Row className="content">
         <Col lg={12}>
           <h3>Portfolio</h3>
         </Col>
@@ -22,8 +22,8 @@ const Portfolio = () => {
       {/* Every two projects should be grouped in a row. */}
       {/* For now I would prefer 4 projects on the page, 
           and the rest pushed off to another page. */}
-      <Row>
-        <Col lg={5} md={5}>
+      <Row className="content">
+        <Col lg={5} md={5}> 
           <h4>Zen Den</h4>
           <h5>December 2017 - January 2018</h5>
           <Image src={ZenDenImage} alt="Front page of ZenDen" responsive={true} />
@@ -46,7 +46,7 @@ const Portfolio = () => {
           </p>
         </Col>    
       
-        <Col lg={5} lgOffset={1} md={5} mdOffset={1}>
+        <Col lg={5} lgOffset={2} md={5} mdOffset={2}>
           <h4>Eat Da Burger</h4>
           <h5>October 2017. Updated December 2017</h5>
           <Image src={EatDaBurgerImage} alt="Front page of Eat Da Burger!!" responsive={true} />
@@ -64,7 +64,7 @@ const Portfolio = () => {
         </Col>  
       </Row>
 
-      <Row>
+      <Row className="content">
         <Col lg={5} md={5}>
           <h4>Feed-Yo-Face</h4>
           <h5>August - September 2017</h5>
@@ -82,7 +82,7 @@ const Portfolio = () => {
           </p>
         </Col>
       
-        <Col lg={5} lgOffset={1} md={5} mdOffset={1}>
+        <Col lg={5} lgOffset={2} md={5} mdOffset={2}>
           <h4>Light Bulb Psychic Game</h4>
           <h5>August 2017</h5>
           <Image src={LightBulbImage} alt="Front page of Light Bulb Psychic Game" responsive={true} />

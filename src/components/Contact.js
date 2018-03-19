@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
 const Contact = () => {
   return (
     <Row>
-      <Col lg={12}>
+      <Col lg={12} className="content">
         <h3>Contact Information</h3>
 
         <h4>LinkedIn:</h4>
