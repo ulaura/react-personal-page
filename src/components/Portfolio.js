@@ -102,11 +102,13 @@ const Portfolio = () => {
       </Row>
 
       {/* Dummy link. It will eventually lead to a page with more projects. */}
+      {/*
       <Row>
         <Col lg={12}>
           <Link to="#">See More Projects &rarr;</Link>
         </Col>
       </Row>
+      */}
     </div>
   );
 }

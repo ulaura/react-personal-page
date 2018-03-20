@@ -1,11 +1,21 @@
-body {
+html, body, #root {
+  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: sans-serif;
   background: url("images/forest-herbs-blue-background.svg");
   /*  Thrown in to stop a scrollbar from offsetting content 
       on larger screens. 
   width: calc(100vw - 34px); */
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 80px;
 }
 
 .myFace {
@@ -54,7 +64,10 @@ a {
 }
 
 .footer {
-  margin-top: 5%;
+  position: absolute;
+  bottom: 0;
+  margin-top: 60px;
+  height: 60px;
   background: #404252;
   color: #DEFFE8;
 }
